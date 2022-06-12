@@ -14125,26 +14125,26 @@ fieldset:disabled .btn {
 
 @media screen and (min-width: 768px) {
   .home-bg {
-    background: url(../../image/bg_yellow.png) no-repeat;
+    background: url(../image/bg_yellow.png) no-repeat;
     background-position: right top;
     background-size: 850px;
   }
 }
 
 .dot-primary {
-  background: url(../../image/ellipse1.png) no-repeat;
+  background: url(../image/ellipse1.png) no-repeat;
   background-position: -250px 509px;
   background-size: 360px;
 }
 
 .dot-light {
-  background: url(../../image/ellipse2.png) no-repeat;
+  background: url(../image/ellipse2.png) no-repeat;
   background-position: 1320px 390px;
   background-size: 310px;
 }
 
 .logo {
-  background: url("../../image/logo.png") center no-repeat;
+  background: url("../image/logo.png") center no-repeat;
   width: 220.41px;
   height: 40px;
   text-indent: 101%;
@@ -14169,7 +14169,7 @@ fieldset:disabled .btn {
 }
 
 .footer-bg {
-  background: url(../../image/bg.png) no-repeat;
+  background: url(../image/bg.png) no-repeat;
   height: 503px;
 }
 /*# sourceMappingURL=all.css.map */
