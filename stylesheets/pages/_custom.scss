@@ -1,5 +1,5 @@
-@media screen and (min-width: 768px) {
-  .home-bg {
+.home-bg {
+  @media (min-width: 576px) {
     background: url(../image/bg_yellow.png) no-repeat;
     background-position: right top;
     background-size: 850px;
@@ -45,6 +45,14 @@
 }
 
 .footer-bg {
-  background: url(../image/bg.png) no-repeat;
-  height: 503px;
+  background: url(../image/bg-sm.png) no-repeat;
+  height: 461px;
+  background-size: cover;
+  background-position: center center;
+  @media (min-width: 576px) {
+    background: url(../image/bg.png) no-repeat;
+    height: 503px;
+    background-size: cover;
+    background-position: center center;
+  }
 }

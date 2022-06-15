@@ -14123,7 +14123,7 @@ fieldset:disabled .btn {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 576px) {
   .home-bg {
     background: url(../image/bg_yellow.png) no-repeat;
     background-position: right top;
@@ -14169,7 +14169,18 @@ fieldset:disabled .btn {
 }
 
 .footer-bg {
-  background: url(../image/bg.png) no-repeat;
-  height: 503px;
+  background: url(../image/bg-sm.png) no-repeat;
+  height: 461px;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 576px) {
+  .footer-bg {
+    background: url(../image/bg.png) no-repeat;
+    height: 503px;
+    background-size: cover;
+    background-position: center center;
+  }
 }
 /*# sourceMappingURL=all.css.map */
